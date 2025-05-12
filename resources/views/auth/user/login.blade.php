@@ -156,7 +156,7 @@
                 // Try to open inside MetaMask app
                 // const callbackUrl = 'https://ethereumworld.online/web3-login';
                 // window.location.href = `https://metamask.app.link/dapp/ethereumworld.online?redirect_uri=${encodeURIComponent(callbackUrl)}`;
-                const callbackUrl = 'http://127.0.0.1:8000/web3-login';
+                const callbackUrl = 'https://alphabotapi.com/web3-login';
                 window.location.href =
                     `https://metamask.app.link/dapp/127.0.0.1:8000?redirect_uri=${encodeURIComponent(callbackUrl)}`;
             } else {
